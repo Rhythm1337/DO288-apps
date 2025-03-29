@@ -14,8 +14,8 @@ cp -Rf /tmp/src/*.html ./
 
 DATE=`date "+%b %d, %Y"`
 
-echo "Page build on $DATE \n Astra inclinant, sed non obligant" >> ./info.html
-echo "Amor vinoit omnia" >> ./index.html
+echo "Page build on $DATE Astra inclinant, sed non obligant" > ./info.html
+echo "Amor vinoit omnia" > ./index.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
