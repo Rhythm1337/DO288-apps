@@ -11,11 +11,10 @@ config_s2i
 ######## CUSTOMIZATION STARTS HERE ############
 
 cp -Rf /tmp/src/*.html ./
+DATE=`date "%b %d, %y"`
 
-DATE=`date "+%b %d, %Y"`
-
-echo "Page build on $DATE Astra inclinant, sed non obligant" > ./info.html
-echo "Amor vinoit omnia" > ./index.html
+echo "Page buit on $DATE" >> ./info.html
+echo "haha" >> ./index.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
